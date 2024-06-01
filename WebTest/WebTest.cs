@@ -5,10 +5,10 @@ namespace WebTest
         [Fact]
         public void DemoTest()
         {
-            int i = 1;
+            int i = 10;
             bool result = false;
-            if (i == 1) result = true;
-            Assert.True(result, "Value should be 1");
+            if (i == 10) result = true;
+            Assert.True(result, "Value should be 10");
         }
     }
 }
