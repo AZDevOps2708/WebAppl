@@ -3,7 +3,7 @@ namespace WebTest
     public class WebTest
     {
         [Fact]
-        public void Test1()
+        public void DemoTest()
         {
             int i = 1;
             bool result = false;
